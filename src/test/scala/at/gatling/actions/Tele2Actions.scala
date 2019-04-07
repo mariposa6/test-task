@@ -9,6 +9,10 @@ object Tele2Actions {
   val toMainPage = http("toMainPage")
     .get("/")
 
+  //Переход на главную страницу
+  val toMainPage1 = http("toMainPage")
+    .get("/")
+
   //Переход в меню тарифы
   val toRatePage = http("toRatePage")
     .get("/tariffs?format=json")
